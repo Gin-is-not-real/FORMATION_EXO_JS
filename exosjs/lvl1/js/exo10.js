@@ -8,7 +8,6 @@ let textLet = "Celle ci est variable aussi, on peut la modifier, mais sa portée
 let textConst = "Ceci est une constante, une fois qu'on l'as crée on ne pourras que la modifier";
 
 reserdWordsToCreateVariableJS.forEach(element => {
-    let text = "";
     console.log(element + ", type: " + typeof element);
 
     switch(element) {
