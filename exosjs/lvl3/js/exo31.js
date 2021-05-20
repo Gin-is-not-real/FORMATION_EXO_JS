@@ -6,7 +6,7 @@ function myFunction() {
         // console.log(tab.length);
         let rand = Math.floor(Math.random() * 800);
 
-        if(rand % 50 == 0 && rand >= 450 ) {
+        if(rand % 50 == 0 && (rand >= 450 || rand <= 350)) {
             if(!tab.includes(rand)) {
                 tab.push(rand);
             }
@@ -14,4 +14,5 @@ function myFunction() {
     }
     console.log(tab);
 }
+
 myFunction();
