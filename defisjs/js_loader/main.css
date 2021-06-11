@@ -1,0 +1,33 @@
+#displayContent{
+    display:none;
+    text-align:center;
+    margin-top:40vh;
+    transform:translateY(-50%);
+}
+#container-animation {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#loadingAnimation{
+    width: 12vh;
+    height: 12vh;
+    border:16px solid transparent;
+    border-radius:100%;
+    border-top:16px solid #d31f43;
+    animation:spin 2s linear infinite;
+    background-color: transparent;
+}
+
+@keyframes spin {
+    0%{
+        
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
