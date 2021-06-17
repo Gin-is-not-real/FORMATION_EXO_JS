@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: -56px;
+    width: 100%;
+    transition: top 0.8s;
+}
+
+#navbar a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+/* ADD */
+#lorem {
+    width: 100%;
+    position: flex;
+}
+section {
+    height: min-content;
+    padding-bottom: 15%;
+}
+section header {
+    padding-top: 10%;
+}
+
+

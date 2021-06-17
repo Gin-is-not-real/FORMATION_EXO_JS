@@ -19,3 +19,4 @@ function scrollIndicator() {
 
     document.querySelector('#bar').style.width = percents + '%';
 }
+
