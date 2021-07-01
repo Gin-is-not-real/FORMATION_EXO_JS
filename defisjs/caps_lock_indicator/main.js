@@ -15,11 +15,8 @@ document.getElementById("input").addEventListener("keyup", function(event) {
         str += k + ', ';
     })
 
-    str = str.substr(0);
     str += ' activated';
-
 
     warning.style.display = keys.length > 0  ? 'block' : 'none';
     warning.textContent = str;
-
 })
