@@ -15,3 +15,15 @@
     position:absolute;
     z-index:2;
 }
+
+.trap {
+    width:35px;
+    height:35px;
+    /* background-image: url("img/trap-30px.png"); */
+    background-image: url("img/trap2-48px.png");
+
+    background-size:100%;
+    background-position:center;
+    position:absolute;
+    z-index:1;
+}
